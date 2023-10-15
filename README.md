@@ -33,9 +33,9 @@ Welcome to the 'Git Cheat Sheet' repository! This is my go-to resource for quick
 
 7. **git diff --staged** : difference of what is staged but not yet commited  
 
-8. **git commit -m “[descriptive message]”** : commit your staged content as a new commit snapshot  
+8. **git commit -m message** : commit your staged content as a new commit snapshot  
 
-9. **git commit -am “[descriptive message]”** : commit your staged content as a new commit snapshot but this can only be used when all changed files are only modified files. IF there are any newly created/deleted files then then this command will not run  
+9. **git commit -am message** : commit your staged content as a new commit snapshot but this can only be used when all changed files are only modified files. IF there are any newly created/deleted files then then this command will not run  
 
 
 # BRANCHING & MERGING  
