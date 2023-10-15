@@ -54,3 +54,31 @@ Welcome to the 'Git Cheat Sheet' repository! This is my go-to resource for quick
 6. **git merge branch-name** : merge the specified branch’s history into the current one. Best way to resolve the conflict is from vscode and then commit,push again in current branch  
 
 7. **git log** : show all commits in the current branch’s history  
+
+
+# SHARE & UPDATE  
+## Retrieving updates from another repository and updating local repos  
+
+1. **git remote add [alias] [repo-url]** : add a git URL as an alias  
+
+2. **git fetch [alias]** : fetch down all the branches from that Git remote  
+
+3. **git merge [alias]/[branch]** : merge a remote branch into your current branch to bring it up to date  
+
+4. **git push** : transmit local main branch commits to the remote repository branch  
+
+5. **git push -u origin branchname** : transmit a particular local branch commits other than mainbranch to the remote repository branch
+
+6. **git pull** : fetch and merge any commits from the tracking remote branch  
+
+
+# TEMPORARY COMMITS  
+## Temporarily store modified, tracked files in order to change branches  
+
+1. **git stash** : Save modified and staged changes for later use, and then reverts them from working copy  
+
+2. **git stash list** : list stack-order of stashed file changes  
+
+3. **git stash pop** : write working from top of stash stack  
+
+4. **git stash drop** : discard the changes from top of stash stack  
